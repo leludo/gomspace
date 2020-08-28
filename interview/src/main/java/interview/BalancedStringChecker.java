@@ -55,10 +55,10 @@ public class BalancedStringChecker {
 	}
 
 	/**
-	 * Check is the given char is a closing char
+	 * Check is the given char is an opening char
 	 * 
 	 * @param c the character to test
-	 * @return true if the char is found in the closing chars definition
+	 * @return true if the char is found in the opening chars definition
 	 */
 	private static boolean isOpening(char c) {
 		return OPENING.indexOf(c) >= 0;
