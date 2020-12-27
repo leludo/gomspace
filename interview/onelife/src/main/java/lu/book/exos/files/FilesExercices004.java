@@ -13,6 +13,7 @@ import static java.nio.file.StandardWatchEventKinds.ENTRY_MODIFY;
 @Data
 public class FilesExercices004 {
 
+    // todo : change this to use resources instead and move the class to junit test instead
     public static final String DOCUMENTS_EMACS_TXT = "C:\\Users\\ludov\\OneDrive\\Documents\\emacs.txt";
 
     public static void main(String[] args) {

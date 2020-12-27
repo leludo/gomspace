@@ -11,6 +11,7 @@ public class Person {
     private String name;
     private int age;
 
+    // test
     public static Comparator<Person> ageComparatorAscending = (a, b) -> a.ageDifference(b);
     public static Comparator<Person> ageComparatorDescending = ageComparatorAscending.reversed();
     public static Comparator<Person> nameComparatorAscending = (a, b) -> a.name.compareTo(b.name);
@@ -18,5 +19,6 @@ public class Person {
     public int ageDifference(final Person anotherPerson) {
         return this.age - anotherPerson.age;
     }
+
 
 }
